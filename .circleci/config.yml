@@ -17,7 +17,7 @@ image_config: &image_config
 
   RUBY_VERSION_NUM: 2.7.1
 
-  BUNDLER_VERSION: 2.2.31
+  BUNDLER_VERSION_NUM: 2.2.31
 
   NODE_VERSION_NUM: 14.15.1
 
