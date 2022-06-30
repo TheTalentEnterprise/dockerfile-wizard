@@ -6,7 +6,7 @@ image_config: &image_config
 
   IMAGE_NAME: tte
 
-  IMAGE_TAG: ruby-2.7.1-node-14.15.1
+  IMAGE_TAG: ruby-2.7.4-node-14.17.3
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
@@ -15,11 +15,11 @@ image_config: &image_config
 
   LINUX_VERSION: UBUNTU_XENIAL
 
-  RUBY_VERSION_NUM: 2.7.1
+  RUBY_VERSION_NUM: 2.7.4
 
   BUNDLER_VERSION_NUM: 2.2.31
 
-  NODE_VERSION_NUM: 14.15.1
+  NODE_VERSION_NUM: 14.17.3
 
   YARN: 1.22.17
 
