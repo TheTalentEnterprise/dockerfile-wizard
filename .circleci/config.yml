@@ -58,7 +58,7 @@ jobs:
 
   test_image:
     docker:
-      - image: $DOCKER_USERNAME/tte:ruby-2.7.1-node-14.15.1
+      - image: $DOCKER_USERNAME/tte:ruby-2.7.4-node-14.17.3
         environment:
           <<: *image_config
 
