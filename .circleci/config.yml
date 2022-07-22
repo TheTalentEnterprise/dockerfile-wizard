@@ -6,7 +6,7 @@ image_config: &image_config
 
   IMAGE_NAME: tte
 
-  IMAGE_TAG: ruby-2.7.4-node-14.17.3
+  IMAGE_TAG: ruby-3.1.2-node-14.17.3
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
@@ -15,9 +15,9 @@ image_config: &image_config
 
   LINUX_VERSION: UBUNTU_XENIAL
 
-  RUBY_VERSION_NUM: 2.7.4
+  RUBY_VERSION_NUM: 3.1.2
 
-  BUNDLER_VERSION_NUM: 2.2.31
+  BUNDLER_VERSION_NUM: 2.3.17
 
   NODE_VERSION_NUM: 14.17.3
 
@@ -58,7 +58,7 @@ jobs:
 
   test_image:
     docker:
-      - image: $DOCKER_USERNAME/tte:ruby-2.7.4-node-14.17.3
+      - image: $DOCKER_USERNAME/tte:ruby-3.1.2-node-14.17.3
         environment:
           <<: *image_config
 
