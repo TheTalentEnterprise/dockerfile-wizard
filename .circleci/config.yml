@@ -6,7 +6,7 @@ image_config: &image_config
 
   IMAGE_NAME: tte
 
-  IMAGE_TAG: ruby-3.1.2-node-14.17.3
+  IMAGE_TAG: ruby-3.1.2-node-14.18.0
 
   # NOTE: if you're modifying this config.yml file manually
   # rather than using the included setup script,
@@ -19,7 +19,7 @@ image_config: &image_config
 
   BUNDLER_VERSION_NUM: 2.3.17
 
-  NODE_VERSION_NUM: 14.17.3
+  NODE_VERSION_NUM: 14.18.0
 
   YARN: true
 
